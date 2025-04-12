@@ -45,7 +45,7 @@ Whether you're a beginner in cybersecurity or an experienced pentester, ByteCTF 
 
 1. **Clone the repository** or download the `bytectf.sh` script:
     ```bash
-    git clone https://github.com/yourusername/byteCTF.git
+       https://github.com/AMTGAMER009/ByteCtf-solve.git
     ```
 
 2. **Make the script executable**:
