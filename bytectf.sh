@@ -85,7 +85,7 @@ access_check() {
     read -s -p "${DARK_GRAY}  [*] ${WHITE}Enter Operation Passphrase: ${NC}" passphrase
     echo ""
     
-    if [ "$passphrase" != "shadow" ]; then
+    if [ "$passphrase" != "Bytehackedits" ]; then
         echo -e "${RED}  [!] ACCESS DENIED - UNAUTHORIZED ENTRY DETECTED${NC}"
         echo -e "${DARK_GRAY}  [*] ${WHITE}Terminating connection...${NC}"
         sleep 2
