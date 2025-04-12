@@ -1,49 +1,80 @@
-ByteCTF - The Ultimate All-in-One CTF Toolkit
-ByteCTF is the ultimate bash-based toolkit designed to supercharge your Capture The Flag (CTF) challenges, penetration testing, and ethical hacking tasks. This all-in-one, modular toolkit combines a powerful collection of tools and utilities, all wrapped in a sleek, intuitive, menu-driven interface to make your security testing faster, easier, and more efficient.
 
-Whether you're a beginner learning the ropes or an experienced pro in the field, ByteCTF is designed to save you time by automating repetitive tasks and simplifying complex workflows.
+---
 
-Key Features
-Network & Port Scanning
-Quickly identify live hosts, perform ARP scans, and detect services running on various ports. From simple Ping sweeps to advanced service enumeration, ByteCTF has you covered.
+# ByteCTF - The Ultimate All-in-One CTF Toolkit
 
-Web App Testing
-Dive deep into web applications with directory brute-forcing and automatic detection of vulnerabilities like SQL Injection (SQLi) and Cross-Site Scripting (XSS). Perfect for bug bounty hunting and web pentesting.
+**ByteCTF** is a powerful, **bash-based toolkit** designed to enhance your **Capture The Flag (CTF)** challenges, penetration testing, and ethical hacking tasks. By integrating essential tools into one streamlined, **menu-driven interface**, ByteCTF saves you time and effort while boosting your security testing capabilities.
 
-Password Cracking
-With integrated support for John the Ripper and Hashcat, you can easily identify and crack hashed passwords. Whether you’re working with hash identification or brute-force cracking, ByteCTF makes the process seamless.
+Whether you're a beginner in cybersecurity or an experienced pentester, ByteCTF simplifies complex workflows and automates repetitive tasks, making it perfect for CTFs, pentesting engagements, or security labs.
 
-Wireless Attacks
-Scan for nearby WiFi networks, capture handshakes, and even crack WiFi passwords. ByteCTF integrates Aircrack-ng to help with wireless penetration testing.
+---
 
-Post-Exploitation Tools
-Generate reverse shells, perform privilege escalation checks, and automate tasks that come after initial access. Stay one step ahead during your post-exploitation phase.
+## Key Features
 
-Why Choose ByteCTF?
-Streamlined Workflow: No more juggling multiple scripts or tools. ByteCTF brings everything you need into one unified interface, making your security testing more efficient.
+- **Network & Port Scanning**  
+  Quickly discover live hosts, perform ARP scans, and enumerate services running on open ports. Perfect for network mapping and initial reconnaissance.
 
-Save Time: Automates time-consuming tasks, so you can focus on what matters most—solving challenges, exploiting vulnerabilities, and learning.
+- **Web Application Testing**  
+  Automate directory brute-forcing, and detect vulnerabilities like **SQL Injection (SQLi)** and **Cross-Site Scripting (XSS)** to identify security flaws in web applications.
 
-Beginner-Friendly: Whether you're just getting started or you're an experienced pentester, ByteCTF’s guided workflows and user-friendly design make it easy for everyone to use.
+- **Password Cracking**  
+  Integrated support for **John the Ripper** and **Hashcat**, making password cracking and hash identification fast and easy.
 
-Perfect for CTFs & Pentesting: Designed for CTF competitions, penetration tests, security labs, or anyone looking to improve their offensive security skills.
+- **Wireless Attacks**  
+  Perform WiFi network scanning, capture handshakes, and crack WiFi passwords using **Aircrack-ng**.
 
-Quick Start Guide
-Download the script and make it executable:
+- **Post-Exploitation Tools**  
+  Generate reverse shells, automate privilege escalation checks, and execute post-exploitation tasks to maintain persistence and escalate privileges after gaining access.
 
-bash
-Copy
-Edit
-chmod +x bytectf.sh
-Run ByteCTF with root privileges:
+---
 
-bash
-Copy
-Edit
-sudo ./bytectf.sh
-Legal Disclaimer
-⚠ Legal Use Only
-ByteCTF is intended for ethical hacking and Capture The Flag challenges. Always ensure that you have proper authorization before testing or attacking any systems or networks. Unauthorized access or attacks are illegal and can result in serious consequences.
+## Why ByteCTF?
 
-Get ready to hack smarter, not harder!
-Happy Hacking! 🔥
+- **Time-Saving Automation**:  
+  Automates common tasks and workflows, so you can focus on what matters—breaking into systems, solving challenges, and learning more about cybersecurity.
+
+- **Beginner-Friendly**:  
+  With intuitive guided workflows and an easy-to-use interface, ByteCTF is perfect for those just getting started in security testing or CTF competitions.
+
+- **Perfect for CTFs and Pentesting**:  
+  Whether you're competing in CTF events or testing the security of your systems, ByteCTF is a versatile toolkit designed to handle a wide range of penetration testing tasks.
+
+---
+
+## Installation
+
+1. **Clone the repository** or download the `bytectf.sh` script:
+    ```bash
+    git clone https://github.com/yourusername/byteCTF.git
+    ```
+
+2. **Make the script executable**:
+    ```bash
+    chmod +x bytectf.sh
+    ```
+
+3. **Run ByteCTF** with root privileges:
+    ```bash
+    sudo ./bytectf.sh
+    ```
+
+---
+
+## Legal Disclaimer
+
+⚠ **Legal Use Only**  
+ByteCTF is intended **only for ethical hacking** and **Capture The Flag** challenges. **Always obtain proper authorization** before scanning or attacking any systems or networks. Unauthorized access to systems is illegal and can have serious consequences.
+
+---
+
+## Contributions
+
+Feel free to contribute! If you'd like to add new features or improvements, please fork the repository and create a pull request. For bug reports or feature requests, open an issue in the **Issues** tab.
+
+---
+
+### **Get Ready to Hack Smarter, Not Harder!**
+
+**Happy Hacking! 🔥**
+
+---
